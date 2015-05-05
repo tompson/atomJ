@@ -15,13 +15,9 @@
   'cmd-l': 'go-to-line:toggle'
   'ctrl-alt-cmd-up': 'pane:split-right'
   'ctrl-alt-cmd-down': 'pane:split-down'
-  'ctrl-w': 'editor:select-word'
 
 'atom-workspace atom-text-editor:not([mini])':
   'cmd-d': 'editor:duplicate-lines'
 
 '.platform-darwin atom-text-editor':
   'cmd-e': 'fuzzy-finder:toggle-buffer-finder'
-
-'body':
-  'cmd-shift-w':'pane:close-other-items'
